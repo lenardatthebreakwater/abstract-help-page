@@ -1,0 +1,109 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+/* utility classes */
+.big-text {
+  font-size: 6rem;
+}
+.medium-text {
+  font-size: 1.8rem;
+}
+.white-font {
+  color: white;
+}
+.bold-font {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+.center-wrapper {
+  width: 1000px;
+  margin: auto;
+}
+.dodgerblue-anchor-tag {
+  color: dodgerblue;
+}
+
+
+button {
+  all: unset;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+a {
+  all: unset;
+  cursor: pointer;
+  display: block;
+}
+article > * {
+  margin: 15px 0;
+}
+
+
+header {
+  height: 100vh;
+  background-color: #dadbf1;
+}
+nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 60px;
+}
+nav > h1 {
+  flex-grow: 1;
+}
+nav > button {
+  margin-left: 10px;
+}
+.sign-in {
+  background-color: #4C5FD5;
+  border: none;
+}
+.main-header-content {
+  padding: 200px 0;
+  text-align: center;
+  white-space: nowrap;
+}
+.main-header-content > * {
+  margin: 10px 0;
+}
+.main-header-content > input {
+  font-size: 4rem;
+}
+
+
+main {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main > * {
+  flex-basis: 40%;
+  margin: 40px 50px;
+}
+
+
+
+footer {
+  background-color: #000000;
+  padding: 100px 0;
+}
+footer > div {
+  display: flex;
+}
+footer > div > * {
+  flex-basis: 100%;
+  margin: 0 20px;
+}
